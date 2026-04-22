@@ -1,6 +1,10 @@
+![jcb-skill-flowRecorder logo](./logo.png)
+
 # jcb-skill-flowRecorder
 
 Semi-automatic website flow recorder for Codex.
+
+Chinese version: [README.zh-CN.md](./README.zh-CN.md)
 
 Author: Chengbin Jia
 
@@ -24,10 +28,10 @@ This skill works especially well for:
 
 ## Quick Start
 
-Install this skill into your local Codex skills directory, then run:
+From the installed skill directory or from a copied local folder, run:
 
 ```bash
-node /Users/jcb/.codex/skills/jcb-skill-flowRecorder/scripts/record-menu-flow.mjs https://example.com
+node scripts/record-menu-flow.mjs https://example.com
 ```
 
 Typical flow:
@@ -91,22 +95,22 @@ If you distribute it as a repository or archive, keep the folder structure uncha
 
 ## How To Run
 
-From a workspace that has this skill installed:
+From the skill directory:
 
 ```bash
-node /Users/jcb/.codex/skills/jcb-skill-flowRecorder/scripts/record-menu-flow.mjs https://example.com
+node scripts/record-menu-flow.mjs https://example.com
 ```
 
 Write output to a specific directory:
 
 ```bash
-node /Users/jcb/.codex/skills/jcb-skill-flowRecorder/scripts/record-menu-flow.mjs https://example.com --output docs/menu-flow
+node scripts/record-menu-flow.mjs https://example.com --output docs/menu-flow
 ```
 
 Capture full request and response samples without redaction:
 
 ```bash
-node /Users/jcb/.codex/skills/jcb-skill-flowRecorder/scripts/record-menu-flow.mjs https://example.com --include-sensitive
+node scripts/record-menu-flow.mjs https://example.com --include-sensitive
 ```
 
 The script defaults to headed mode and writes output to `tools/menu-flow-output` unless `--output` is specified.

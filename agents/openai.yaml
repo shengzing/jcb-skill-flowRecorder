@@ -1,0 +1,4 @@
+display_name: JCB Flow Recorder
+short_description: Record menu navigation, page captures, and API traffic from a live browser session.
+default_prompt: Record a website's navigation flow, save rendered pages and assets, and summarize the captured API traffic.
+author: Chengbin Jia
